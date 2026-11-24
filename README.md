@@ -135,6 +135,9 @@ signatures); auditability and offline recomputability are favoured over throughp
 Hash-chain verify and tamper detection scale linearly and every injected mid-chain
 mutation is detected. The scaling is reported, not hidden.
 
+A captured 2026-11-24 VM2 run (Node 22, `node:22-slim`) is kept with its raw `bench.json`
+and a comparison chart in [`docs/evidence/EVIDENCE.md`](docs/evidence/EVIDENCE.md).
+
 ## Honest limits
 
 - **Ed25519 only** in this public lite format. The commercial post-quantum

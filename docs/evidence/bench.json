@@ -1,0 +1,126 @@
+{
+  "node": "v22.23.5",
+  "platform": "linux",
+  "crypto": "@noble/curves ed25519",
+  "evaluate_pure": {
+    "n": 3000,
+    "ops_per_sec": 198,
+    "median_us": 4578.7,
+    "p95_us": 7809.2,
+    "min_us": 4018.3,
+    "max_us": 19404.8
+  },
+  "verify_decision_offline": {
+    "n": 3000,
+    "ops_per_sec": 211.9,
+    "median_us": 4529.7,
+    "p95_us": 5740.6,
+    "min_us": 4108.8,
+    "max_us": 14854.6
+  },
+  "decide_allow_commit_n200": {
+    "n": 200,
+    "ops_per_sec": 93.5,
+    "median_us": 10567.4,
+    "p95_us": 15466.4,
+    "min_us": 6309.6,
+    "max_us": 22023.5
+  },
+  "append_latency_by_ledger_size": {
+    "0": {
+      "n": 20,
+      "ops_per_sec": 730.7,
+      "median_us": 1384.4,
+      "p95_us": 2107.3,
+      "min_us": 935.8,
+      "max_us": 2107.3
+    },
+    "100": {
+      "n": 20,
+      "ops_per_sec": 218.9,
+      "median_us": 4217.1,
+      "p95_us": 6886.4,
+      "min_us": 3736.2,
+      "max_us": 6886.4
+    },
+    "300": {
+      "n": 20,
+      "ops_per_sec": 97.4,
+      "median_us": 10216.7,
+      "p95_us": 11213.5,
+      "min_us": 9671.8,
+      "max_us": 11213.5
+    },
+    "500": {
+      "n": 20,
+      "ops_per_sec": 54.9,
+      "median_us": 18278.8,
+      "p95_us": 19846.4,
+      "min_us": 16657.5,
+      "max_us": 19846.4
+    }
+  },
+  "verify_chain_by_ledger_size": {
+    "100": {
+      "n": 15,
+      "ops_per_sec": 330.5,
+      "median_us": 2935.8,
+      "p95_us": 3962.4,
+      "min_us": 2503.8,
+      "max_us": 3962.4
+    },
+    "300": {
+      "n": 15,
+      "ops_per_sec": 121.4,
+      "median_us": 8135.8,
+      "p95_us": 9583.7,
+      "min_us": 7750,
+      "max_us": 9583.7
+    },
+    "500": {
+      "n": 15,
+      "ops_per_sec": 63.7,
+      "median_us": 15723.1,
+      "p95_us": 16903.8,
+      "min_us": 14557.6,
+      "max_us": 16903.8
+    },
+    "1000": {
+      "n": 15,
+      "ops_per_sec": 34.2,
+      "median_us": 28206.4,
+      "p95_us": 36476,
+      "min_us": 27401.5,
+      "max_us": 36476
+    }
+  },
+  "tamper_detection_by_ledger_size": {
+    "100": {
+      "n": 15,
+      "ops_per_sec": 322.7,
+      "median_us": 2618.4,
+      "p95_us": 4849,
+      "min_us": 2448.7,
+      "max_us": 4849,
+      "detected": true
+    },
+    "500": {
+      "n": 15,
+      "ops_per_sec": 72,
+      "median_us": 13542.6,
+      "p95_us": 16110.4,
+      "min_us": 13092.5,
+      "max_us": 16110.4,
+      "detected": true
+    },
+    "1000": {
+      "n": 15,
+      "ops_per_sec": 30,
+      "median_us": 31360.1,
+      "p95_us": 49292.3,
+      "min_us": 26093.9,
+      "max_us": 49292.3,
+      "detected": true
+    }
+  }
+}
