@@ -162,12 +162,17 @@ vectors and the Python reference, **not** certified by a model's verdict. The gu
 moves no funds and signs with no real key. No warranty; no certified security audit
 is claimed. Full terms: [`DISCLAIMER.md`](DISCLAIMER.md).
 
-## Standalone, and a natural fit into AlgoVoi Fabric
+## Standalone, and wired into the AlgoVoi estate
 
 Zero AlgoVoi runtime dependencies (`@noble/curves` + `@noble/hashes` only, pure JS,
 isomorphic Node/browser). Emits refs byte-identical to the published conformance
-vectors and to the Python reference, so it composes with `algovoi-fabric` by
-construction.
+vectors and to the Python reference, so it composes with
+[`algovoi-fabric`](https://github.com/chopmob-cloud/algovoi-fabric) by construction.
+
+The spend-authority guard is wired into the wider estate: the Python reference
+bolts into [`algovoi-secure-hub`](https://github.com/chopmob-cloud/algovoi-secure-hub)
+as a registered service (exercised live on VM2, 2026-11-24, posture `up:true`), and
+this port is byte-conformant with that reference.
 
 ## License
 
