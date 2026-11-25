@@ -1,0 +1,7 @@
+# Keep the GitHub Trending language category on TypeScript: docs and media
+# are documentation, not source; built output and dependencies are vendored.
+docs/** linguist-documentation
+*.md linguist-documentation
+*.png linguist-documentation
+dist/** linguist-vendored
+node_modules/** linguist-vendored

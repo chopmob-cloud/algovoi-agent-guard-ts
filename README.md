@@ -9,6 +9,8 @@ Every charge is checked fail-closed *before* execution, and every decision produ
 a receipt anyone can recompute offline from public material - no mediator signature
 required.
 
+⭐ **If this is useful, a star helps others find it.**
+
 This is the TypeScript port of [`algovoi-agent-guard`](https://github.com/chopmob-cloud/algovoi-agent-guard).
 It is **byte-conformant** with the Python reference and the estate's frozen public
 L1 spend-authority conformance vectors: the same canonical bytes produce the same
