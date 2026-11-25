@@ -1,6 +1,6 @@
 # AlgoVoi Agent Guard (TypeScript)
 
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE) [![algovoi-agent-guard](https://img.shields.io/badge/algovoi--agent--guard-8A2BE2)](https://github.com/chopmob-cloud/algovoi-agent-guard) [![algovoi-fabric](https://img.shields.io/badge/algovoi--fabric-8A2BE2)](https://github.com/chopmob-cloud/algovoi-fabric) [![algovoi-secure-hub](https://img.shields.io/badge/algovoi--secure--hub-8A2BE2)](https://github.com/chopmob-cloud/algovoi-secure-hub)
+[![CI](https://github.com/chopmob-cloud/algovoi-agent-guard-ts/actions/workflows/ci.yml/badge.svg)](https://github.com/chopmob-cloud/algovoi-agent-guard-ts/actions/workflows/ci.yml) [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE) [![algovoi-agent-guard](https://img.shields.io/badge/algovoi--agent--guard-8A2BE2)](https://github.com/chopmob-cloud/algovoi-agent-guard) [![algovoi-fabric](https://img.shields.io/badge/algovoi--fabric-8A2BE2)](https://github.com/chopmob-cloud/algovoi-fabric) [![algovoi-secure-hub](https://img.shields.io/badge/algovoi--secure--hub-8A2BE2)](https://github.com/chopmob-cloud/algovoi-secure-hub)
 
 **The budget your agent can't raise.**
 
