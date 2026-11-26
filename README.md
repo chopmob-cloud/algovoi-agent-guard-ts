@@ -11,6 +11,17 @@ required.
 
 ⭐ **If this is useful, a star helps others find it.**
 
+## Documentation
+
+Full documentation: **[docs.algovoi.co.uk](https://docs.algovoi.co.uk)** — the
+AlgoVoi documentation site.
+
+| | |
+|---|---|
+| This product | [docs.algovoi.co.uk/agent-guard](https://docs.algovoi.co.uk/agent-guard) |
+| How the layers fit | [docs.algovoi.co.uk/application-matrix](https://docs.algovoi.co.uk/application-matrix) |
+| Free licence & self-host | [docs.algovoi.co.uk/free-licence](https://docs.algovoi.co.uk/free-licence) |
+
 This is the TypeScript port of [`algovoi-agent-guard`](https://github.com/chopmob-cloud/algovoi-agent-guard).
 It is **byte-conformant** with the Python reference and the estate's frozen public
 L1 spend-authority conformance vectors: the same canonical bytes produce the same
